@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1890B94B3AC765BD084A012F /* Pods_DoorOpen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8388F14E477F711768D64B9F /* Pods_DoorOpen.framework */; };
+		B172226727BD1EF1008747D0 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = B172225C27BD1EF1008747D0 /* 4.json */; };
+		B172226827BD1EF1008747D0 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = B172225D27BD1EF1008747D0 /* 1.json */; };
+		B172226927BD1EF1008747D0 /* 8.json in Resources */ = {isa = PBXBuildFile; fileRef = B172225E27BD1EF1008747D0 /* 8.json */; };
+		B172226A27BD1EF1008747D0 /* 10.json in Resources */ = {isa = PBXBuildFile; fileRef = B172225F27BD1EF1008747D0 /* 10.json */; };
+		B172226B27BD1EF1008747D0 /* 11.json in Resources */ = {isa = PBXBuildFile; fileRef = B172226027BD1EF1008747D0 /* 11.json */; };
+		B172226C27BD1EF1008747D0 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = B172226127BD1EF1008747D0 /* 2.json */; };
+		B172226D27BD1EF1008747D0 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = B172226227BD1EF1008747D0 /* 3.json */; };
+		B172226E27BD1EF1008747D0 /* 7.json in Resources */ = {isa = PBXBuildFile; fileRef = B172226327BD1EF1008747D0 /* 7.json */; };
+		B172226F27BD1EF1008747D0 /* 9.json in Resources */ = {isa = PBXBuildFile; fileRef = B172226427BD1EF1008747D0 /* 9.json */; };
+		B172227027BD1EF1008747D0 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = B172226527BD1EF1008747D0 /* 6.json */; };
+		B172227127BD1EF1008747D0 /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = B172226627BD1EF1008747D0 /* 5.json */; };
+		B1FE239E275EE64C00656343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FE239D275EE64C00656343 /* AppDelegate.swift */; };
+		B1FE23A0275EE64C00656343 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FE239F275EE64C00656343 /* SceneDelegate.swift */; };
+		B1FE23A2275EE64C00656343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FE23A1275EE64C00656343 /* ViewController.swift */; };
+		B1FE23A5275EE64C00656343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FE23A3275EE64C00656343 /* Main.storyboard */; };
+		B1FE23A7275EE64C00656343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FE23A6275EE64C00656343 /* Assets.xcassets */; };
+		B1FE23AA275EE64C00656343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FE23A8275EE64C00656343 /* LaunchScreen.storyboard */; };
+		B1FE23BC275F012D00656343 /* top.json in Resources */ = {isa = PBXBuildFile; fileRef = B1FE23BB275F012D00656343 /* top.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8388F14E477F711768D64B9F /* Pods_DoorOpen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoorOpen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B172225C27BD1EF1008747D0 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 4.json; path = ../../../door/door/4.json; sourceTree = "<group>"; };
+		B172225D27BD1EF1008747D0 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 1.json; path = ../../../door/door/1.json; sourceTree = "<group>"; };
+		B172225E27BD1EF1008747D0 /* 8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 8.json; path = ../../../door/door/8.json; sourceTree = "<group>"; };
+		B172225F27BD1EF1008747D0 /* 10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 10.json; sourceTree = "<group>"; };
+		B172226027BD1EF1008747D0 /* 11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 11.json; sourceTree = "<group>"; };
+		B172226127BD1EF1008747D0 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 2.json; path = ../../../door/door/2.json; sourceTree = "<group>"; };
+		B172226227BD1EF1008747D0 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 3.json; path = ../../../door/door/3.json; sourceTree = "<group>"; };
+		B172226327BD1EF1008747D0 /* 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 7.json; path = ../../../door/door/7.json; sourceTree = "<group>"; };
+		B172226427BD1EF1008747D0 /* 9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 9.json; path = ../../../door/door/9.json; sourceTree = "<group>"; };
+		B172226527BD1EF1008747D0 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 6.json; path = ../../../door/door/6.json; sourceTree = "<group>"; };
+		B172226627BD1EF1008747D0 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 5.json; path = ../../../door/door/5.json; sourceTree = "<group>"; };
+		B1D3F208533C6C5673038E49 /* Pods-DoorOpen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorOpen.release.xcconfig"; path = "Target Support Files/Pods-DoorOpen/Pods-DoorOpen.release.xcconfig"; sourceTree = "<group>"; };
+		B1FE239A275EE64C00656343 /* DoorOpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorOpen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FE239D275EE64C00656343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1FE239F275EE64C00656343 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1FE23A1275EE64C00656343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1FE23A4275EE64C00656343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1FE23A6275EE64C00656343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1FE23A9275EE64C00656343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1FE23AB275EE64C00656343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FE23BB275F012D00656343 /* top.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top.json; sourceTree = "<group>"; };
+		EFFA84B2E63124589367AE96 /* Pods-DoorOpen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorOpen.debug.xcconfig"; path = "Target Support Files/Pods-DoorOpen/Pods-DoorOpen.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1FE2397275EE64C00656343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1890B94B3AC765BD084A012F /* Pods_DoorOpen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B1D1DCBE087F785D416024F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFFA84B2E63124589367AE96 /* Pods-DoorOpen.debug.xcconfig */,
+				B1D3F208533C6C5673038E49 /* Pods-DoorOpen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F75306538E001423A1B7DF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8388F14E477F711768D64B9F /* Pods_DoorOpen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1FE2391275EE64C00656343 = {
+			isa = PBXGroup;
+			children = (
+				B1FE239C275EE64C00656343 /* DoorOpen */,
+				B1FE239B275EE64C00656343 /* Products */,
+				6B1D1DCBE087F785D416024F /* Pods */,
+				6F75306538E001423A1B7DF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1FE239B275EE64C00656343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1FE239A275EE64C00656343 /* DoorOpen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1FE239C275EE64C00656343 /* DoorOpen */ = {
+			isa = PBXGroup;
+			children = (
+				B1FE239D275EE64C00656343 /* AppDelegate.swift */,
+				B1FE239F275EE64C00656343 /* SceneDelegate.swift */,
+				B1FE23A1275EE64C00656343 /* ViewController.swift */,
+				B1FE23A3275EE64C00656343 /* Main.storyboard */,
+				B1FE23BB275F012D00656343 /* top.json */,
+				B172225D27BD1EF1008747D0 /* 1.json */,
+				B172226127BD1EF1008747D0 /* 2.json */,
+				B172226227BD1EF1008747D0 /* 3.json */,
+				B172225C27BD1EF1008747D0 /* 4.json */,
+				B172226627BD1EF1008747D0 /* 5.json */,
+				B172226527BD1EF1008747D0 /* 6.json */,
+				B172226327BD1EF1008747D0 /* 7.json */,
+				B172225E27BD1EF1008747D0 /* 8.json */,
+				B172226427BD1EF1008747D0 /* 9.json */,
+				B172225F27BD1EF1008747D0 /* 10.json */,
+				B172226027BD1EF1008747D0 /* 11.json */,
+				B1FE23A6275EE64C00656343 /* Assets.xcassets */,
+				B1FE23A8275EE64C00656343 /* LaunchScreen.storyboard */,
+				B1FE23AB275EE64C00656343 /* Info.plist */,
+			);
+			path = DoorOpen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1FE2399275EE64C00656343 /* DoorOpen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FE23AE275EE64C00656343 /* Build configuration list for PBXNativeTarget "DoorOpen" */;
+			buildPhases = (
+				EC2C5EEE436D88F6B512AA8B /* [CP] Check Pods Manifest.lock */,
+				B1FE2396275EE64C00656343 /* Sources */,
+				B1FE2397275EE64C00656343 /* Frameworks */,
+				B1FE2398275EE64C00656343 /* Resources */,
+				A437301479F09F8034199615 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorOpen;
+			productName = DoorOpen;
+			productReference = B1FE239A275EE64C00656343 /* DoorOpen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1FE2392275EE64C00656343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B1FE2399275EE64C00656343 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = B1FE2395275EE64C00656343 /* Build configuration list for PBXProject "DoorOpen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1FE2391275EE64C00656343;
+			productRefGroup = B1FE239B275EE64C00656343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1FE2399275EE64C00656343 /* DoorOpen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1FE2398275EE64C00656343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B172227027BD1EF1008747D0 /* 6.json in Resources */,
+				B172226F27BD1EF1008747D0 /* 9.json in Resources */,
+				B172226C27BD1EF1008747D0 /* 2.json in Resources */,
+				B172226E27BD1EF1008747D0 /* 7.json in Resources */,
+				B172226B27BD1EF1008747D0 /* 11.json in Resources */,
+				B172227127BD1EF1008747D0 /* 5.json in Resources */,
+				B172226D27BD1EF1008747D0 /* 3.json in Resources */,
+				B172226A27BD1EF1008747D0 /* 10.json in Resources */,
+				B172226727BD1EF1008747D0 /* 4.json in Resources */,
+				B172226827BD1EF1008747D0 /* 1.json in Resources */,
+				B1FE23BC275F012D00656343 /* top.json in Resources */,
+				B1FE23AA275EE64C00656343 /* LaunchScreen.storyboard in Resources */,
+				B1FE23A7275EE64C00656343 /* Assets.xcassets in Resources */,
+				B172226927BD1EF1008747D0 /* 8.json in Resources */,
+				B1FE23A5275EE64C00656343 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A437301479F09F8034199615 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoorOpen/Pods-DoorOpen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoorOpen/Pods-DoorOpen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoorOpen/Pods-DoorOpen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC2C5EEE436D88F6B512AA8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoorOpen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1FE2396275EE64C00656343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FE23A2275EE64C00656343 /* ViewController.swift in Sources */,
+				B1FE239E275EE64C00656343 /* AppDelegate.swift in Sources */,
+				B1FE23A0275EE64C00656343 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1FE23A3275EE64C00656343 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1FE23A4275EE64C00656343 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1FE23A8275EE64C00656343 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1FE23A9275EE64C00656343 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1FE23AC275EE64C00656343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1FE23AD275EE64C00656343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1FE23AF275EE64C00656343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFFA84B2E63124589367AE96 /* Pods-DoorOpen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BZHZGT6JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoorOpen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamada.DoorOpen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1FE23B0275EE64C00656343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D3F208533C6C5673038E49 /* Pods-DoorOpen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BZHZGT6JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoorOpen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamada.DoorOpen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1FE2395275EE64C00656343 /* Build configuration list for PBXProject "DoorOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FE23AC275EE64C00656343 /* Debug */,
+				B1FE23AD275EE64C00656343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FE23AE275EE64C00656343 /* Build configuration list for PBXNativeTarget "DoorOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FE23AF275EE64C00656343 /* Debug */,
+				B1FE23B0275EE64C00656343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1FE2392275EE64C00656343 /* Project object */;
+}
